@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <script>webLLMGlobal = {};
+
+</script>
+
+<head><script src="/llama_8b.709264c6.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.2cdaf7bc.css">
+    <title>Text Completion Model Timing</title>
+</head>
+<body>
+    <div class="overlay"></div>
+    <h2>Text Completion Model Timing</h2>
+
+    <div class="container">
+        <!-- Init Label Section -->
+        <div class="row">
+            <div class="col-sm-10">
+                <label id="init-label">Initialization Label</label>
+            </div>
+        </div>
+
+        <!-- Description Section -->
+        <div class="row">
+            <div class="col-sm-10">
+                <div class="form-row">
+                    <div class="form-group col-md-8">
+                        Testing Loading and Inference time for SmolLM2 Instruct 360M
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Table Section -->
+        <div class="row">
+            <div class="col-sm-10">
+                <div class="form-group col-md-12">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th># Words</th>
+                                <th>1</th>
+                                <th>10</th>
+                                <th>100</th>
+                                <th>300</th>
+                                <th>500</th>
+                                <th>1000</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td id="col1"></td>
+                                <td id="1word"></td>
+                                <td id="10words"></td>
+                                <td id="100words"></td>
+                                <td id="300words"></td>
+                                <td id="500words"></td>
+                                <td id="1000words"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-1"></div>
+
+    <script src="/SmolLM_360M.a6b2cc04.js" defer=""></script>
+</body>
+</html>
